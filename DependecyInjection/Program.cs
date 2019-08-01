@@ -35,7 +35,7 @@ namespace DependecyInjection
 
         public void Display()
         {
-            Console.WriteLine("This is well done");
+            Console.WriteLine("This is  very well done");
         }
     }
     public class DipInd
