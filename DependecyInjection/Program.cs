@@ -21,7 +21,7 @@ namespace DependecyInjection
 
         public void Display()
         {
-            Console.WriteLine("This is done");
+            Console.WriteLine("This is done ru sure");
         }
       
     }
