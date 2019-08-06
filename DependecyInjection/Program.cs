@@ -9,15 +9,12 @@ namespace DependecyInjection
     public interface IMathOperation
 
     {
-        void Add(int a,int b);
+       
         void Display();
     }
     public class UseOperation : IMathOperation
     {
-        public void Add(int a, int b)
-        {
-            Console.WriteLine(a + b);
-        }
+      
 
         public void Display()
         {
@@ -28,10 +25,7 @@ namespace DependecyInjection
 
     public class UseOperation2 : IMathOperation
     {
-        public void Add(int a, int b)
-        {
-            Console.WriteLine(a + b);
-        }
+        
 
         public void Display()
         {
